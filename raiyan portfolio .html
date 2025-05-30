@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raiyan | Crypto Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(145deg, #0f172a, #1e293b);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #38bdf8;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #94a3b8;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    .profile {
+      text-align: center;
+      margin-top: 30px;
+      animation: fadeIn 1s ease forwards;
+    }
+    .profile img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid #38bdf8;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .section {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 20px;
+      margin: 30px 0;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      animation: slideIn 1s ease forwards;
+    }
+    .section h2 {
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+    .skills ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills li {
+      background: #0ea5e9;
+      padding: 10px 15px;
+      border-radius: 20px;
+    }
+    .social {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #7dd3fc;
+      font-size: 1.5rem;
+      transition: transform 0.3s ease;
+    }
+    .social a:hover {
+      color: #38bdf8;
+      transform: scale(1.2);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(-20px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    @media (max-width: 600px) {
+      .skills ul { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Raiyan</h1>
+    <p>Crypto Enthusiast | Blockchain Analyst</p>
+  </header>
+
+  <div class="container">
+    <div class="profile">
+      <img src="https://i.postimg.cc/Vkcg63mx/IMG-20250331-WA0056.jpg" alt="Raiyan">
+      <p>Age: 18</p>
+      <p>Facebook: Aryan Ahmed Raiyan</p>
+    </div>
+
+    <div class="section skills">
+      <h2>My Skills</h2>
+      <ul>
+        <li>Crypto Analysis</li>
+        <li>Blockchain Research</li>
+        <li>Forex Trading</li>
+        <li>Risk Management</li>
+        <li>Technical Indicators</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Follow Me</h2>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/cryptoraiyan" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Raiyan | All rights reserved
+  </footer>
+</body>
+</html>
